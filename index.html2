@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>"Taste of Travel"</title>
+  <meta charset="UTF-8">
+    <meta name="description"
+      content="Embark on a culinary adventure with Taste of Travel, exploring
+global flavors and recipes.">
+  </head>
+  <body>
+    <h1>"Discover the Flavors of Thailand"</h1>
+    <h2>"Tom Yum Goong: A Spicy Thai Delight"</h2>
+    <h3>"Ingredients:"</h3>
+    <p>"Tom Yum Goong is a classic Thai soup
+renowned for its bold flavors and aromatic spices. This hot and sour soup
+features a tantalizing blend of lemongrass, galangal, and kaffir lime
+leaves, combined with succulent shrimp."</p>
+    <p><blockqoute>"The key to a
+delicious Tom Yum Goong lies in the balance of flavors – sweet, sour,
+salty, and spicy."</blockqoute> - Chef Somchai</p>
+    <ul>
+      <li><strong>Lemongrass</strong>: 2 stalks</li>
+      <li><strong>Thai basil</strong>: 1 cup</li>
+      <li><strong>Kaffir Lime Leaves</strong>: 3 leaves</li>
+      <li><strong>Shrimp</strong>: 500g</li>
+    </ul>
+    <h3>"Preparation:"</h3>
+    <ol>
+      <li><em>Simmer</em> the broth for 10 minutes.</li>
+      <li>Add lemongrass, galangal, and kaffir lime leaves.</li>
+      <li><em>Stir</em> in shrimp and <em>cook</em>until pink.</li>
+      <li>Season with fish sauce, lime juice, and chili paste.</li>
+      <li></li>
