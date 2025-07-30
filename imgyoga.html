@@ -41,13 +41,11 @@ input[type="checkbox"]
   <img src="yoga.jpg" alt="Yoga Mat" style="width: 150px;
     height: auto; margin-bottom: 20px;">
 
-  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Maecenas molestie tincidunt bibendum. 
    <br>Praesent placerat tellus nisi, eu ornare eros ultrices et.
-    Nam suscipit non ipsum at semper. Vivamus<br> 
-
-
-  
+    Nam suscipit non ipsum at semper. Vivamus</p> 
+<br>
   <label for="name">Name:</label>  
   <input type="text" id="address" name="address"><br>
   
@@ -60,11 +58,17 @@ input[type="checkbox"]
   <label for="contact">Contact Number:</label>                
   <input type="tel" id="contact" name="contact"><br>          
 <style>
-  p {
-    text-align: right;
-  }
-  </style>
-  <p><label>Gender:</label><br>
+.right-aligned {
+  text-align: right;
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div class="right-aligned">
+
+  <label>Gender:</label><br>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
@@ -80,7 +84,7 @@ input[type="checkbox"]
   <input type="checkbox" id="watchingTV" name="hobbies[]" value="watchingTV">
   <label for="watchingTV">Watching TV</label><br>
   <input type="checkbox" id="playing" name="hobbies[]" value="playing">
-  <label for="playing">Playing</label><br><br></p>
+  <label for="playing">Playing</label><br><br>
 
   
                                  <input type="text" id="name" name="name"><br>
