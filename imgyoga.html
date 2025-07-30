@@ -11,7 +11,7 @@
 .container {
   width: 500px; 
   margin: 0 auto; 
-  padding: 30px;
+  padding: 20px;
   border: 1px solid #ccc;
 
 label 
@@ -41,29 +41,39 @@ input[type="checkbox"]
   <img src="yoga.jpg" alt="Yoga Mat" style="width: 150px;
     height: auto; margin-bottom: 20px;">
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
     Maecenas molestie tincidunt bibendum. 
-    Praesent placerat tellus nisi, eu ornare eros ultrices et.
+   <br>Praesent placerat tellus nisi, eu ornare eros ultrices et.
     Nam suscipit non ipsum at semper. Vivamus</p> 
 
-  <label for="name">Name:</label>                             <label>Gender:</label><br>
-  <label for="address">Address:</label>                       <input type="radio" id="male" name="gender" value="male">
-  <input type="text" id="address" name="address"><br>         <label for="male">Male</label><br>
-                                                              <input type="radio" id="female" name="gender" value="female"> 
-  <label for="email">Email:</label>                           <label for="female">Female</label><br>                         
+  <label for="name">Name:</label>                             
+  <label for="address">Address:</label>                       
+  <input type="text" id="address" name="address"><br>        
+                                                               
+  <label for="email">Email:</label>                                                   
   <input type="email" id="email" name="email"><br>
 
-  <label for="contact">Contact Number:</label>                <label>Hobbies:</label><br>
-  <input type="tel" id="contact" name="contact"><br>          <input type="checkbox" id="swimming" name="hobbies[]" value="swimming">
-                                                              <label for="swimming">Swimming</label><br> 
-                                                              <input type="checkbox" id="biking" name="hobbies[]" value="biking">
-                                                              <label for="biking">Biking</label><br>
-                                                              <input type="checkbox" id="reading" name="hobbies[]" value="reading"> 
-                                                              <label for="reading">Reading</label><br>
-                                                              <input type="checkbox" id="watchingTV" name="hobbies[]" value="watchingTV">
-                                                              <label for="watchingTV">Watching TV</label><br>
-                                                              <input type="checkbox" id="playing" name="hobbies[]" value="playing">
-                                                              <label for="playing">Playing</label><br><br>
+  <label for="contact">Contact Number:</label>                
+  <input type="tel" id="contact" name="contact"><br>          
+   .right-aligned {                                                            
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+  <label>Hobbies:</label><br>
+  <input type="checkbox" id="swimming" name="hobbies[]" value="swimming">
+  <label for="swimming">Swimming</label><br>
+  <input type="checkbox" id="biking" name="hobbies[]" value="biking">
+  <label for="biking">Biking</label><br>
+  <input type="checkbox" id="reading" name="hobbies[]" value="reading">
+  <label for="reading">Reading</label><br>
+  <input type="checkbox" id="watchingTV" name="hobbies[]" value="watchingTV">
+  <label for="watchingTV">Watching TV</label><br>
+  <input type="checkbox" id="playing" name="hobbies[]" value="playing">
+  <label for="playing">Playing</label><br><br>
+}
   
                                  <input type="text" id="name" name="name"><br>
                                  <input type="submit" value="Submit">
