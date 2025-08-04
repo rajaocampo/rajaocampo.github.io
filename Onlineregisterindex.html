@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Register</title>
+    <style>
+      body {
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; 
+  0b0o0rder: 1px solid #ccc;
+  box-sizing: border-box;0
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Sign-up Form</h1>
+  <form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="sex">Sex:</label>
+    <label><input type="radio" id="male" name="sex" value="male"> Male</label>
+    <label><input type="radio" id="female" name="sex" value="female"> Female</label>
+
+    <label for="shippingAddress">Shipping Address:</label>
+    <input type="text" id="shippingAddress" name="shippingAddress" required>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="zipCode">Zip Code:</label>
+    <input type="text" id="zipCode" name="zipCode" required>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label>Do you accept all the cookies?</label>
+    <input type="checkbox" id="cookies" name="cookies" required>
+
+    <label>In terms of privacy:</label>
+    <textarea rows="4" cols="50" name="privacy"></textarea>
+
+    <label>Do you agree with all of the agreements?</label>
+    <input type="checkbox" id="agreements" name="agreements" required>
+
+    <label>Would you like to allow this platform to send you some notifications?</label>
+    <label><input type="radio" id="yes" name="notifications" value="yes"> Yes</label>
+    <label><input type="radio" id="no" name="notifications" value="no"> No</label>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
