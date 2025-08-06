@@ -59,13 +59,14 @@ input[type="submit"] {
     <input type="age" id="age" name="age" required>
 <label for="mySelect">Sex:</label>
 <select id="mySelect" name="mySelect">
-  <option value="option1">Male</option>
-  <option value="option2">Female</option>
+    <option value="option1">Select</option>
+  <option value="option2">Male</option>
+  <option value="option3">Female</option>
 </select>
     <label for="username">Username:</label>
-    <input type="username" id="username" name="username" required>
+    <input type="username" id="username" name="username" required><br>
 <h6>Don't use any generec characters and numbers</h6>
-<br><hr>
+<hr>
     <label for="shippingAddress">Shipping Address:</label>
     <input type="text" id="shippingAddress" name="shippingAddress" required>
     <label for="city">City:</label>
@@ -80,7 +81,7 @@ input[type="submit"] {
     <label>Would you like to allow this platform to send you some notifications?</label>
     <label><input type="radio" id="yes" name="notifications" value="yes"> Yes</label>
     <label><input type="radio" id="no" name="notifications" value="no"> No</label>
-    <p>Add message: (optional)</p>
+    <p>Add message(optional):</p>
             <textarea id="comments" name="comments" rows="5" cols="50" placeholder="Comments"
               <form action="/submit-page.php" method="post">
 
