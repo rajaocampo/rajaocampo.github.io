@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ms. Ocampo's Resume</title>
+    <style>
+    <div class="image-container">
+  <img src="graduationpic.jpg">
+</div>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            width: 70%
+        }
+        .container {
+            width: 30%;
+            margin: 10px auto;
+            background-color: #FFD580;
+            padding: 70px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+        }
+        .left-section {
+            padding-right: 60px;
+            width: 100%
+        }
+        .right-section {
+            padding-left: 60px;
+            border-left: 1px solid black;
+            width: 400%
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #444;
+            margin-bottom: 0.5px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .contact-info p {
+            margin: 3px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-list li {
+            margin-bottom: 8px;
+        }
+        .skills-list li:before {
+            content: '\25CF';
+            color: #555;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .experience-item {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #444;
+        }
+        .company {
+            font-style: italic;
+            color: #555;
+        }
+        .date {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        .project-item:before {
+            content: '\25CF';
+            color: #555;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="your-photo.jpg" alt="Raja Roana R. Ocampo">
+            <section class="contact-info">
+                <h2>Contact</h2>
+                <p>0968 - 710 - 6969</p>
+                <p>rajaocampo17@gmail.com</p>
+                <p>www.rajabyomacoop.lookit</p>
+                <p>18-23 Malagasang, Imus Cavite</p>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>De La Salle University Manila</p>
+                <p>2027 - 2031</p>
+                <p>2401 Taft Avenue, Malate, Manila, Philippines</p>
+                <h3>Master of Web Development</h3>
+                <p>De La Salle University Manila</p>
+                <p>2027 - 2031</p>
+                <p>2401 Taft Avenue, Malate, Manila, Philippines</p>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Phyton (Django)</li>
+                    <li>Javascript</li>
+                    <li>HTML5/CSS</li>
+                    <li>AWS</li>
+                    <li>Unix, Git</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-section">
+            <section class="header">
+                <h1>RAJA ROANA R. OCAMPO</h1>
+                <p>Software Developer</p>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3 class="job-title">Software Developer</h3>
+                    <p class="company">IBM</p>
+                    <p class="date">January 2031 - January 2033</p>
+                    <p>Worked with product managers to re-architected a multi-page web app into a single-page app. Increased revenue by 1.4M. Built ad-serving logic for $5M users, improving page speed by 15%. Tested software, fixing bugs and documenting procedures for 18% greater efficiency.</p>
+                </div>
+                <div class="experience-item">
+                    <h3 class="job-title">Software Developer</h3>
+                    <p class="company">Oracle</p>
+                    <p class="date">January 2033 - December 2035</p>
+                    <p>Built internal tool using Node/JS and Puppeteer JS to automate QA and monitoring of donor-facing web app that increased CTR by 3%. Reviewed code and conducted testing for 5 additional features on donor-facing web app that increased contributions by 12%.</p>
+                </div>
+                <div class="experience-item">
+                    <h3 class="job-title">Software Developer</h3>
+                    <p class="company">Accenture</p>
+                    <p class="date">January 2035 - January 2039</p>
+                    <p>Led a Small CRM development team. Managed communication between technical, functional, and testing teams. Oversaw monthly releases, estimated project requirements, and managed risk. Contributed to all project phases. Delivered features using Agile and SDLC methodologies. Became a trusted CRM expert</p>
+                </div>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li class="project-item">Personal Portfolio Website: Developed a responsive website showcasing my skills and projects using React and Node.</li>
+                    <li class="project-item">Open Source Contribution: Contributed to an open-source project on GitHub, improving its functionality and performance.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
