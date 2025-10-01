@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ms. Ocampo's Resume</title>
     <style>
+    <link rel="stylesheet" href="css/style.css">
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -97,18 +98,31 @@
             width: 1em;
             margin-left: -1em;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
+        .image-container {
+    width: 300px;
+    height: 400px;
+    background-image: url('../images/graduation_photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #ccc;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
     </style>
 </head>
 <body>
     <div class="container">
         <div class="left-section">
-            <img src="C:\Users\Raja\Downloads\graduationpic.jpg">
+            <link rel="stylesheet" href="css/style.css">
+            <div class="image-container">
+            </div>
             <section class="contact-info">
                 <h2>Contact</h2>
                 <p>0968 - 710 - 6969</p>
