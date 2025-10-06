@@ -67,6 +67,68 @@
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+           .shape {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            animation: shine 5s linear infinite;
+        }
+        .shape:nth-child(1) {
+            top: 10%;
+            left: 10%;
+        }
+        .shape:nth-child(2) {
+            top: 30%;
+            left: 40%;
+            width: 40px;
+            height: 40px;
+        }
+        .shape:nth-child(3) {
+            top: 60%;
+            left: 70%;
+            width: 80px;
+            height: 80px;
+        }
+        .shape:nth-child(4) {
+            top: 80%;
+            left: 20%;
+        }
+        .shape:nth-child(5) {
+            top: 40%;
+            left: 90%;
+            width: 50px;
+            height: 50px;
+        }
+        @keyframes shine {
+            0% {
+                transform: translateX(0) translateY(0) rotate(0deg);
+            }
+            100% {
+                transform: translateX(50px) translateY(-50px) rotate(360deg);
+            }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            background-color: #ADD8E6;
+            padding: 20px; 
+            border-radius: 10px; 
+        }
+        footer h6 {
+            color: #777;
+            font-size: 0.9em;
+        }
+        footer h4 {
+            color: #800080;
+            font-size: 1.3em;
+            margin-top: 10px;
   }
    <iframe
    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.198567243639!2d-73.9851306845916!3d40.73254337932825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3d3def5%3A0x5451b2c7994a8432!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1678880623456"
@@ -83,6 +145,7 @@
   <article class="invitation">
   <header>
   <h1>Let's Celebrate Jimin's 29th Birthday!</h1>
+   <p>Get Ready To Dance Because We Don't Need Permission To Dance And<br> Brace Yourself To Sing Along With Our One And Only BIrthday Celebrant Jimin!</p>
   </header>
   <div class="image-container">
   <img src="https://st1.bollywoodlife.com/wp-content/uploads/2021/09/BTS-BTS-ARMY-BTS-in-the-SOOP-2-Jimin-Park-Jimin-Jimin-Day-Jimin-Birthday-Chinese-BTS-ARMY.png">
@@ -92,7 +155,7 @@
   <p><strong>Date:</strong> Saturday, October. 13, 2028</p>
   <p><strong>Time:</strong> 7:00 PM - 11:00 PM</p>
   <p><strong>Location:</strong> The Grand Ballroom, 123 Main Street, Anytown, USA</p>
-  <p><strong>What to bring:</strong>Jimin!</p>
+  <p><strong>What to bring:</strong> ARMY Bomb, Photocard, Yourself, and Purple Handkerchief</p>
   </section>
   <hr>
      <section class="map-container">
@@ -116,7 +179,11 @@
    <h6>For More Information Just Contact Us at 179-3847-1117</h6>
       <h4>Hope To See You There!</h4>
   </footer>
-  </div>
+          <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
   </article>
  </body>
  </html>
